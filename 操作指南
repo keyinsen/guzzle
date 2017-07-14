@@ -1,0 +1,8 @@
+laravel guzzle 爬虫练习  跟着这个网址学就会了：http://bbs.earnp.com/article/219  还有中文文档网址 https://guzzle-cn.readthedocs.io/zh_CN/latest/quickstart.html
+步骤： 建立客户端请求、设置请求需要的参数、 对服务端发送请求，得到请求 然后打印出爬取的结果  （不管curl 还是任意的插件 原理的是这样）
+
+1、composer require guzzlehttp/guzzle  下载插件
+
+2、php artisan make:command MultithreadingRequest --command=test:multithreading-request   运行命令行创建命令
+
+3、Commands\MultithreadingRequest::class,  在console（控制台）注册命令
